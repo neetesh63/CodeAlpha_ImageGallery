@@ -29,16 +29,28 @@ A modern and responsive Image Gallery built using **HTML**, **CSS**, and **JavaS
 ---
 
 ## 📂 Folder Structure
-Image-Gallery/
+ImageGallery/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-├── vehicles
-├── food
-├── animals
-└── nature
 
+bike1.jpg
+burger.jpg
+car1.jpg
+car2.jpg
+elephant.jpg
+forest.jpg
+icecream.jpg
+sunset.jpg
+tiger.jpg
+truck1.jpg
+waterfall.jpg
+lion.jpg
+mountain.jpg
+panda.jpg
+pasta.jpg
+pizza.jpg
 
 ---
 
@@ -96,7 +108,7 @@ Add your project screenshots here after uploading them.
 
 ## 👨‍💻 Developed By
 
-**Neetesh Rathore**
+**Neetesh**
 
 Frontend Developer
 
