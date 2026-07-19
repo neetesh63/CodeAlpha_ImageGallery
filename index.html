@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Gallery Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-camera-retro"></i>
+            Image Gallery
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <h1>Explore Beautiful Collections</h1>
+
+        <p>
+            Browse amazing images from Vehicles, Food,
+            Animals and Nature with a modern gallery experience.
+        </p>
+
+    </section>
+
+    <!-- ================= FILTER BUTTONS ================= -->
+
+    <section class="filter-section">
+
+        <button class="filter-btn active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter-btn" data-filter="vehicles">
+            Vehicles
+        </button>
+
+        <button class="filter-btn" data-filter="food">
+            Food
+        </button>
+
+        <button class="filter-btn" data-filter="animals">
+            Animals
+        </button>
+
+        <button class="filter-btn" data-filter="nature">
+            Nature
+        </button>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery" id="gallery">
+
+        <!-- ================= VEHICLES ================= -->
+
+        <div class="gallery-item vehicles">
+            <img src="vehicles/car1.jpg" alt="Car">
+        </div>
+
+        <div class="gallery-item vehicles">
+            <img src="vehicles/car2.jpg" alt="Car">
+        </div>
+
+        <div class="gallery-item vehicles">
+            <img src="vehicles/bike1.jpg" alt="Bike">
+        </div>
+
+        <div class="gallery-item vehicles">
+            <img src="vehicles/truck1.jpg" alt="Truck">
+        </div>
+
+        <!-- ================= FOOD ================= -->
+
+        <div class="gallery-item food">
+            <img src="food/pizza.jpg" alt="Pizza">
+        </div>
+
+        <div class="gallery-item food">
+            <img src="food/burger.jpg" alt="Burger">
+        </div>
+
+        <div class="gallery-item food">
+            <img src="food/pasta.jpg" alt="Pasta">
+        </div>
+
+        <div class="gallery-item food">
+            <img src="food/icecream.jpg" alt="Ice Cream">
+        </div>
+
+                <!-- ================= ANIMALS ================= -->
+
+        <div class="gallery-item animals">
+            <img src="animal/lion.jpg" alt="Lion">
+        </div>
+
+        <div class="gallery-item animals">
+            <img src="animal/tiger.jpg" alt="Tiger">
+        </div>
+
+        <div class="gallery-item animals">
+            <img src="animal/elephant.jpg" alt="Elephant">
+        </div>
+
+        <div class="gallery-item animals">
+            <img src="animal/panda.jpg" alt="Panda">
+        </div>
+
+        <!-- ================= NATURE ================= -->
+
+        <div class="gallery-item nature">
+            <img src="nature/mountain.jpg" alt="Mountain">
+        </div>
+
+        <div class="gallery-item nature">
+            <img src="nature/waterfall.jpg" alt="Waterfall">
+        </div>
+
+        <div class="gallery-item nature">
+            <img src="nature/forest.jpg" alt="Forest">
+        </div>
+
+        <div class="gallery-item nature">
+            <img src="nature/sunset.jpg" alt="Sunset">
+        </div>
+
+    </section>
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <img class="lightbox-img" src="" alt="Preview">
+
+        <button class="next">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+
+        <p class="image-counter">
+            1 / 16
+        </p>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Image Gallery  | Designed by Neetesh
+        </p>
+
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
